@@ -174,6 +174,9 @@ Patch1053: patch-docs-rename-DATE-to-PANDOC_REL_DATE-and-allow-to-spe.patch
 Patch1054: patch-docs-xen-headers-use-alphabetical-sorting-for-incont.patch
 Patch1055: patch-Strip-build-path-directories-in-tools-xen-and-xen-ar.patch
 
+# pstate test
+Patch2000: patch-xen-pstate.patch
+
 %if %build_qemutrad
 BuildRequires: libidn-devel zlib-devel SDL-devel curl-devel
 BuildRequires: libX11-devel gtk2-devel libaio-devel
